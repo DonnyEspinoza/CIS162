@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
+
 html {
   height: 100%;
   width: 100%;
+  color: #ffffff;
+}
+
+body{
+  background-color: #161616;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+   padding: 15px;
+  font-size: 45px;
+  color: #ffffff;
+  
+  background-color: #d1bda2;
+  border-radius: 10px;
+  
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+h2{
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+  color: #ffffff;
+  
+  background-color: #d1bda2;
+  border-radius: 10px;
+  
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+section{
+  background-color: #272c32;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+nav{
+  text-align: left;
+}
+
+ol{
+  text-align: left;
+}
+
+footer{
+  background-color: #0d0d0d;
+  padding: 20px;
+  margin:20px;
+  border-radius: 10px;
 }
